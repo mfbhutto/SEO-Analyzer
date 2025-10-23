@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Ensure proper spacing and layout */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/* Focus styles for better accessibility */
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Responsive text sizing */
+@media (max-width: 640px) {
+  .text-4xl {
+    font-size: 2rem;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+}
