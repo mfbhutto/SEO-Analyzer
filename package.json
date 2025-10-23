@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A React application for generating targeted Google search queries and tracking SEO leads",
   "main": "src/index.js",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
